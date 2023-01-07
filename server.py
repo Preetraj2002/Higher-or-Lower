@@ -12,7 +12,7 @@ def hello():
            "<p>Good Lord</p>"
 
 @app.route('/<int:number>')
-def randi(number):
+def guess(number):
 
     if number<temp:
         return "<h1 style='color:red;'><b>Too low,try again!</b></h1>" \
